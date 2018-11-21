@@ -17,7 +17,7 @@ mongoose.connection.on('connected', () => {
 // On Error
 
 mongoose.connection.on('error', () => {
-    console.log('atabase connection error' + config.database);
+    console.log('database connection error' + config.database);
 })
 
 const app = express();
